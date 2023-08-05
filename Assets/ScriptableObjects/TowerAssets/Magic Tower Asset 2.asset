@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a364fd038da4343bb618e34ddd4775, type: 3}
+  m_Name: Magic Tower Asset 2
+  m_EditorClassIdentifier: 
+  goldCost: 40
+  sprite: {fileID: 21300000, guid: 28156e3e6e142f8448dae0ff7178709f, type: 3}
+  GUISprite: {fileID: 21300000, guid: c6d546e9100c7204cb86bd24854671f6, type: 3}
+  m_towerPrefab: {fileID: 8423212556224802977, guid: 7e8b715628a5ca147813b480ab69acc8, type: 3}
+  m_TowerTurretProperties: {fileID: 11400000, guid: a043fc24350fa8b45a10bb7400481813, type: 2}
+  requaredUpgrade: {fileID: 11400000, guid: af452bb793c44174fac3eddd8af39f6b, type: 2}
+  requiredUpgradeLevel: 2
+  m_UpgradesTo: []

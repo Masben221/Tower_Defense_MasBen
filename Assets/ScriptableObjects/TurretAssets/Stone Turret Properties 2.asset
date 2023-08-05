@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f97aaaaf149afc04b9c2be9a26f59b2d, type: 3}
+  m_Name: Stone Turret Properties 2
+  m_EditorClassIdentifier: 
+  m_Mode: 2
+  m_ProjectilePrefab: {fileID: -2344779170311390589, guid: 0627162b5b725684680e511bef40630d, type: 3}
+  m_RateOfFire: 1.3
+  m_EnergyUsage: 0
+  m_AmmoUsage: 0
+  m_LaunchSFX: {fileID: 8300000, guid: 3d7ba070b3c4f2649aceab2779b400c5, type: 3}

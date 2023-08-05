@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a364fd038da4343bb618e34ddd4775, type: 3}
+  m_Name: Stone Tower Asset 1
+  m_EditorClassIdentifier: 
+  goldCost: 45
+  sprite: {fileID: 21300000, guid: 9ebe521f885b8c543b6b87940815582f, type: 3}
+  GUISprite: {fileID: 21300000, guid: dd537bb3d4362f948afde4fe29e45eef, type: 3}
+  m_towerPrefab: {fileID: 8423212556224802977, guid: 5c319b384beb5d5469d1144806a7bc73, type: 3}
+  m_TowerTurretProperties: {fileID: 11400000, guid: 4c38eabb39331634ea9ba9a10049ccb1, type: 2}
+  requaredUpgrade: {fileID: 11400000, guid: 4ca5bad7e620bad4086c82dbf239bfe0, type: 2}
+  requiredUpgradeLevel: 1
+  m_UpgradesTo: []
