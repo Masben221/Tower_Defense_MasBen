@@ -219,6 +219,7 @@ MonoBehaviour:
     m_Cost: 10
     m_CostText: {fileID: 629742754}
     m_Cooldown: 15
+    IsCooledDown: 0
 --- !u!1 &586207040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1324,7 @@ GameObject:
   - component: {fileID: 723939911708930826}
   - component: {fileID: 8763907600117036415}
   - component: {fileID: 2310355117828508566}
+  - component: {fileID: 1928319439}
   m_Layer: 5
   m_Name: Lose
   m_TagString: Untagged
@@ -1391,6 +1393,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1928319439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895414331735778519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8087b0dfc20f3459be136bdabad7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: 5
 --- !u!1 &964537134770606434
 GameObject:
   m_ObjectHideFlags: 0
@@ -2285,6 +2300,7 @@ GameObject:
   - component: {fileID: 2481368127549945855}
   - component: {fileID: 2481368127549945853}
   - component: {fileID: 2481368127549945854}
+  - component: {fileID: 215508971}
   m_Layer: 5
   m_Name: Win
   m_TagString: Untagged
@@ -2353,6 +2369,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &215508971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2481368127549945824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8087b0dfc20f3459be136bdabad7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sound: 4
 --- !u!1 &2481368127804294610
 GameObject:
   m_ObjectHideFlags: 0

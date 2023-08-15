@@ -19,7 +19,7 @@ namespace SpaceShooter
         /// </summary>
         [SerializeField] private TurretProperties m_TurretProperties;
 
-        [SerializeField] private float m_VolumeSFX = 1f;
+        //[SerializeField] private float m_VolumeSFX = 1f;
 
         [SerializeField] private AudioSource m_AudioSource;
 
@@ -94,7 +94,7 @@ namespace SpaceShooter
 
             {
                 //playSFX
-                m_AudioSource.PlayOneShot(m_TurretProperties.LaunchSFX, m_VolumeSFX);
+                //m_AudioSource.PlayOneShot(m_TurretProperties.LaunchSFX, m_VolumeSFX);
             }
         }
 

@@ -17,4 +17,4 @@ MonoBehaviour:
   m_RateOfFire: 0.7
   m_EnergyUsage: 0
   m_AmmoUsage: 0
-  m_LaunchSFX: {fileID: 8300000, guid: 66a57fa357b9f7146867d7dcb0bac08d, type: 3}
+  m_LaunchSFX: {fileID: 0}

@@ -43,7 +43,9 @@ namespace TowerDefense {
                     obj.enabled = false;
                 }
             }
-                       
+            FindObjectOfType<Abilities>()?.gameObject.SetActive(false);
+                 
+            DisableAll<EnemySpawner>();
             DisableAll<EnemyWave>();            
             DisableAll<Projectile>();
             DisableAll<Tower>();

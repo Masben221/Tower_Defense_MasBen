@@ -9,15 +9,15 @@ namespace TowerDefense
     {
         public enum DamageType { Base, Magic}
         [SerializeField] private DamageType m_DamageType;
-        //[SerializeField] private Sound m_ShootSound = Sound.Arrow;
-        //[SerializeField] private Sound m_HitSound = Sound.ArrowHit;
+        [SerializeField] private Sound m_ShootSound = Sound.ArrowShoot;
+        [SerializeField] private Sound m_HitSound = Sound.ArrowHit;
 
         [SerializeField] private float m_ExplosionRadius;
         [SerializeField] private int m_DamageExploded;
 
         private void Start()
         {
-            //m_ShootSound.Play();
+            m_ShootSound.Play();
         }
         protected override void OnProjectileLifeEnd(Collider2D col, Vector2 pos)
         {
@@ -40,7 +40,7 @@ namespace TowerDefense
 
         protected override void OnHit(RaycastHit2D hit)
         {
-            //m_HitSound.Play();
+            m_HitSound.Play();
 
             var enemy = hit.collider.transform.root.GetComponent<Enemy>();
 

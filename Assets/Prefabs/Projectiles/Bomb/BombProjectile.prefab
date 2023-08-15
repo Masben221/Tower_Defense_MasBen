@@ -151,6 +151,8 @@ MonoBehaviour:
   m_Damage: 4
   m_ImpactEffectPrefab: {fileID: 1333944373814019537, guid: 38ba329548c47424d85bbdcc32d11c57, type: 3}
   m_DamageType: 0
+  m_ShootSound: 11
+  m_HitSound: 12
   m_ExplosionRadius: 3
   m_DamageExploded: 2
 --- !u!114 &322878237142339200

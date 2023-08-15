@@ -123,51 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &32865751
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 32865753}
-  - component: {fileID: 32865752}
-  m_Layer: 0
-  m_Name: SingleLevelTestObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &32865752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32865751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98b9ab23c44d3c74d907a3fcafe0afae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_DoNotDestroyOnLoad: 0
---- !u!4 &32865753
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32865751}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &47121653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2988,6 +2943,67 @@ MonoBehaviour:
       count: 2
   prepareTime: 6
   nextWave: {fileID: 871812179}
+--- !u!1001 &2030295437
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4667968567580519259, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_BGM
+      value: 
+      objectReference: {fileID: 8300000, guid: 3197c0473b57f8c4aa25163738f2b834, type: 3}
+    - target: {fileID: 8298067144577623748, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298067144577623748, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298067144577623748, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298067144577623748, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298067144577623748, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298067144577623748, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298067144577623748, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298067144577623748, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298067144577623748, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298067144577623748, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298067144577623748, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298067144577623754, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
+      propertyPath: m_Name
+      value: SingleLevelTestObject
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9b7f04e7ebe43914b9211e92d2133b86, type: 3}
 --- !u!1001 &2052082782
 PrefabInstance:
   m_ObjectHideFlags: 0

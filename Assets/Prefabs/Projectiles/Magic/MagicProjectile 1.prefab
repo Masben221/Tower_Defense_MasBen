@@ -9858,6 +9858,8 @@ MonoBehaviour:
   m_Damage: 2
   m_ImpactEffectPrefab: {fileID: 1333944373814019537, guid: fa1be4ccffe4060478d373930182c503, type: 3}
   m_DamageType: 1
+  m_ShootSound: 7
+  m_HitSound: 8
   m_ExplosionRadius: 0
   m_DamageExploded: 0
 --- !u!1 &8277606999355030994

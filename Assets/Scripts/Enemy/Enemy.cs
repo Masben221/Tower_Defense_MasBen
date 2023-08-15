@@ -93,7 +93,8 @@ namespace TowerDefense
                 ArmorDamageFunctions[(int)m_ArmorType](damage, damageTyte, m_armor));
         }
     }
-    /*[CustomEditor(typeof(Enemy))]
+#if UNITY_EDITOR
+    [CustomEditor(typeof(Enemy))]
     public class EnemyInspector : Editor
     {
         public override void OnInspectorGUI()
@@ -107,5 +108,6 @@ namespace TowerDefense
             }
         }
 
-    }*/
+    }
+#endif
 }
