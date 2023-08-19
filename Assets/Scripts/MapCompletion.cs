@@ -54,7 +54,7 @@ namespace TowerDefense {
             }
             else
             {
-                Debug.Log($"Episode complete with score {levelScore}");
+                //Debug.Log($"Episode complete with score {levelScore}");
             }
         }
 

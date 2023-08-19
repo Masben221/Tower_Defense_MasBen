@@ -8,5 +8,6 @@ namespace TowerDefense
     {
         public Sound m_Sound;
         public void Play() { m_Sound.Play(); }
+        public void Stop() { m_Sound.Stop(); }
     }
 }

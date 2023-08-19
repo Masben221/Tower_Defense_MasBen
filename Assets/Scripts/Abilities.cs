@@ -61,17 +61,22 @@ namespace TowerDefense
             [SerializeField] private int m_Damage = 5;
             private int Damage; 
             [SerializeField] private int m_RadiusCircle = 1;
-                     
+
+            [SerializeField] private GameObject m_ParticleFire;
+
             public void Use()
             {
                 Damage = m_Damage * levelfireUpgrade;
-                print("Damage = " + Damage);
+                //print("Damage = " + Damage);
+                m_ParticleFire.SetActive(false);
 
                 ClickProtection.Instance.Activate((Vector2 v) =>
                 {
                     Vector3 position = v;
                     position.z = -Camera.main.transform.position.z;
                     position = Camera.main.ScreenToWorldPoint(position);
+                    m_ParticleFire.transform.position = position;
+                    m_ParticleFire.SetActive(true);
 
                     foreach (var collider in Physics2D.OverlapCircleAll(position, m_RadiusCircle)) // взрыв
                     {                        
@@ -112,7 +117,7 @@ namespace TowerDefense
 
             public void Use()
             {
-                print("Duration = " + m_Duration * leveltimeUpgrade);
+                //print("Duration = " + m_Duration * leveltimeUpgrade);
 
                 void Slow(Enemy ship)
                 {

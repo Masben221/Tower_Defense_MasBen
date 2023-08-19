@@ -27,5 +27,10 @@ namespace TowerDefense
         {
             m_AS.PlayOneShot(m_Sounds[sound]);
         }
+
+        public void Stop(Sound sound)
+        {
+            m_AS.Stop();
+        }
     }
 }

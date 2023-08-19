@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneTower
       objectReference: {fileID: 0}
+    - target: {fileID: 8423212556224802980, guid: 5c319b384beb5d5469d1144806a7bc73, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8423212556224802982, guid: 5c319b384beb5d5469d1144806a7bc73, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -262,7 +266,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &142136202
 GameObject:
@@ -391,15 +395,15 @@ MonoBehaviour:
     - asset: {fileID: 11400000, guid: bd7c384b5618e314fbcde336c2aa6d2f, type: 2}
       count: 1
   - squads:
-    - asset: {fileID: 11400000, guid: bd7c384b5618e314fbcde336c2aa6d2f, type: 2}
-      count: 1
-  - squads:
     - asset: {fileID: 11400000, guid: 39e5dca69b9755b4785c789be14c0413, type: 2}
       count: 1
   - squads:
     - asset: {fileID: 11400000, guid: 39e5dca69b9755b4785c789be14c0413, type: 2}
       count: 1
-  prepareTime: 10
+  - squads:
+    - asset: {fileID: 11400000, guid: 39e5dca69b9755b4785c789be14c0413, type: 2}
+      count: 1
+  prepareTime: 40
   nextWave: {fileID: 0}
 --- !u!4 &346754247
 Transform:
@@ -729,6 +733,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Radius: 0.15
+--- !u!1 &623957116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3520664342166726901, guid: c91e069ef3959fa43885b828f22bd43c, type: 3}
+  m_PrefabInstance: {fileID: 1617861128}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &623957123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623957116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e4a6875b1cc1b9489ded9167fea2f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &633964878
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -739,6 +760,10 @@ PrefabInstance:
     - target: {fileID: 8423212556224802980, guid: 012ab467c5b7098459d4b5f49d24f194, type: 3}
       propertyPath: m_Name
       value: MagicTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423212556224802980, guid: 012ab467c5b7098459d4b5f49d24f194, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8423212556224802982, guid: 012ab467c5b7098459d4b5f49d24f194, type: 3}
       propertyPath: m_RootOrder
@@ -921,7 +946,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &716417834
 GameObject:
@@ -983,6 +1008,10 @@ PrefabInstance:
     - target: {fileID: 8423212556224802980, guid: d5fc033f9db4b984d9733556b15a0b17, type: 3}
       propertyPath: m_Name
       value: Bomb Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423212556224802980, guid: d5fc033f9db4b984d9733556b15a0b17, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8423212556224802982, guid: d5fc033f9db4b984d9733556b15a0b17, type: 3}
       propertyPath: m_RootOrder
@@ -1476,7 +1505,7 @@ Transform:
   - {fileID: 1620543363}
   - {fileID: 346754247}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1000397588
 MonoBehaviour:
@@ -1870,7 +1899,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5238799007218947172, guid: f745e5dc8503448448976355c976bf81, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5238799007218947172, guid: f745e5dc8503448448976355c976bf81, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2114,7 +2143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429105828}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.03, y: -15.03, z: 0}
+  m_LocalPosition: {x: 9.03, y: -15.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2325,18 +2354,27 @@ PrefabInstance:
       value: PlayerCamp
       objectReference: {fileID: 0}
     - target: {fileID: 3520664342166726905, guid: c91e069ef3959fa43885b828f22bd43c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520664342166726905, guid: c91e069ef3959fa43885b828f22bd43c, type: 3}
       propertyPath: timeLimit
-      value: 50
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 3520664342166726906, guid: c91e069ef3959fa43885b828f22bd43c, type: 3}
       propertyPath: m_ReferenceTime
-      value: 100
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 3520664342166726907, guid: c91e069ef3959fa43885b828f22bd43c, type: 3}
       propertyPath: m_Mana
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 3520664342166726907, guid: c91e069ef3959fa43885b828f22bd43c, type: 3}
+      propertyPath: m_gold
+      value: 100
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3520664342166726905, guid: c91e069ef3959fa43885b828f22bd43c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c91e069ef3959fa43885b828f22bd43c, type: 3}
 --- !u!1 &1620543361
 GameObject:
@@ -2383,7 +2421,7 @@ MonoBehaviour:
   - squads:
     - asset: {fileID: 11400000, guid: db00b2e360f9ad74291498c92275b4f4, type: 2}
       count: 5
-  prepareTime: 10
+  prepareTime: 30
   nextWave: {fileID: 346754246}
 --- !u!4 &1620543363
 Transform:
@@ -2409,7 +2447,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5238799007218947172, guid: f745e5dc8503448448976355c976bf81, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5238799007218947172, guid: f745e5dc8503448448976355c976bf81, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2512,7 +2550,7 @@ MonoBehaviour:
       count: 1
     - asset: {fileID: 11400000, guid: fc1c7f759860ad8408ee6f7af9f6be16, type: 2}
       count: 3
-  prepareTime: 5
+  prepareTime: 20
   nextWave: {fileID: 1852359684}
 --- !u!4 &1706401220
 Transform:
@@ -2672,7 +2710,7 @@ MonoBehaviour:
   - squads:
     - asset: {fileID: 11400000, guid: 3b1f702c308a58e4db800daebe9d1ea2, type: 2}
       count: 2
-  prepareTime: 7
+  prepareTime: 25
   nextWave: {fileID: 1620543362}
 --- !u!4 &1852359685
 Transform:
@@ -2755,7 +2793,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5238799007218947172, guid: f745e5dc8503448448976355c976bf81, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5238799007218947172, guid: f745e5dc8503448448976355c976bf81, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2813,6 +2851,10 @@ PrefabInstance:
     - target: {fileID: 8423212556224802980, guid: b958ce2018063024fa1d96e37975a075, type: 3}
       propertyPath: m_Name
       value: ArcherTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423212556224802980, guid: b958ce2018063024fa1d96e37975a075, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8423212556224802982, guid: b958ce2018063024fa1d96e37975a075, type: 3}
       propertyPath: m_RootOrder

@@ -20,7 +20,10 @@ namespace TowerDefense
         BGM_1 = 13,
         BGM_2 = 14,
         BGM_3 = 15,
-        BGM_4 = 16
+        BGM_4 = 16,
+        FIRE_1 = 17,
+        FIRE_2 = 18,
+        Slow = 19
     }
 
     public static class SoundExtensions
@@ -29,5 +32,11 @@ namespace TowerDefense
         {
             SoundPlayer.Instance.Play(sound);
         }
+        public static void Stop(this Sound sound)
+        {
+            SoundPlayer.Instance.Stop(sound);
+        }
+
+
     }
 }

@@ -15,7 +15,7 @@ MonoBehaviour:
   m_Sounds:
   - {fileID: 8300000, guid: 66a57fa357b9f7146867d7dcb0bac08d, type: 3}
   - {fileID: 8300000, guid: 14eea348e65dae543b1f66c2aaa9e8de, type: 3}
-  - {fileID: 8300000, guid: 6ba27adf2bc960e47a637cdfaeecd5fd, type: 3}
+  - {fileID: 8300000, guid: b5ef0fd627cd91444a8ec4242f150cbb, type: 3}
   - {fileID: 8300000, guid: cfbf827e73e62d3409cbab893d08aa42, type: 3}
   - {fileID: 8300000, guid: fa5127007dee8a3459d2710390a3c843, type: 3}
   - {fileID: 8300000, guid: 2de6c5010cbbb5746b250987adcc5cd1, type: 3}
@@ -30,3 +30,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 31af6e848ca33364a99675665ef611e1, type: 3}
   - {fileID: 8300000, guid: 3197c0473b57f8c4aa25163738f2b834, type: 3}
   - {fileID: 8300000, guid: 2c95e694e337be54c976b9edf063dffe, type: 3}
+  - {fileID: 8300000, guid: b0cd1fbaff8654247a6e5273ec86e148, type: 3}
+  - {fileID: 8300000, guid: 91583ea6c8c889248b3da02e07e33a98, type: 3}
+  - {fileID: 8300000, guid: 36d7844ad70cd9146a80f122f6753063, type: 3}

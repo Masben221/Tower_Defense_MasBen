@@ -26,7 +26,7 @@ namespace TowerDefense
         }
         internal static void Save(string filename, T data)
         {
-            Debug.Log($"saving to {FileHandler.Path(filename)}");
+            //Debug.Log($"saving to {FileHandler.Path(filename)}");
             var wrapper = new Saver<T> { data = data };
             var dataString = JsonUtility.ToJson(wrapper);
             File.WriteAllText(FileHandler.Path(filename), dataString);

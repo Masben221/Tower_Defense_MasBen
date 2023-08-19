@@ -15,7 +15,7 @@ MonoBehaviour:
   color: {r: 1, g: 1, b: 1, a: 1}
   spriteScale: {x: 0.6, y: 0.6}
   animatorController: {fileID: 9100000, guid: 832441b03fedf9d4890feea2609f9973, type: 2}
-  moveSpeed: 0.7
+  moveSpeed: 1.5
   hp: 3
   armor: 1
   armorType: 1

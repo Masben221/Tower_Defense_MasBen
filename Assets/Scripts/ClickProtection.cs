@@ -11,6 +11,7 @@ public class ClickProtection : MonoSingleton<ClickProtection>, IPointerClickHand
     private Image blocker;
 
     [SerializeField] private GameObject m_TargetingCircle;
+    [SerializeField] private GameObject m_SoundFire;    
 
     private void Start()
     {
@@ -20,7 +21,7 @@ public class ClickProtection : MonoSingleton<ClickProtection>, IPointerClickHand
 
     private void Update()
     {
-        m_TargetingCircle.transform.position = Input.mousePosition;
+        m_TargetingCircle.transform.position = Input.mousePosition;        
     }
 
     private Action<Vector2> m_OnClickAction;
@@ -28,15 +29,18 @@ public class ClickProtection : MonoSingleton<ClickProtection>, IPointerClickHand
     {
         blocker.enabled = true;
         
-        m_TargetingCircle.SetActive(true);       
-
+        m_TargetingCircle.SetActive(true);
+        m_SoundFire.SetActive(false);
+        
         m_OnClickAction = mouseAction; 
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         blocker.enabled = false;
-        m_TargetingCircle.SetActive(false); 
+        m_TargetingCircle.SetActive(false);
+        m_SoundFire.SetActive(true);
+                
         m_OnClickAction(eventData.position);
         m_OnClickAction = null;
     }       
